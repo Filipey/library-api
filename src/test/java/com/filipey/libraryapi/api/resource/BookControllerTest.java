@@ -31,7 +31,7 @@ public class BookControllerTest {
     static String BOOK_API = "/api/v1/books";
 
     @Autowired
-    private MockMvc mvc;
+    MockMvc mvc;
 
     @MockBean
     BookService service;
